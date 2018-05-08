@@ -1,7 +1,7 @@
 package it.academy.classes.operations;
 
 import it.academy.classes.Menu;
-import it.academy.classes.shop.ShopItems.shopWorkers.PriceFilter;
+import it.academy.classes.shop.ShopItems.shopWorkers.filters.PriceFilter;
 import it.academy.classes.shop.ShopItems.shopWorkers.Printer;
 import it.academy.classes.shop.ShopItems.shopWorkers.SearchEngine;
 import it.academy.exeptions.IllegalChoiceExeption;

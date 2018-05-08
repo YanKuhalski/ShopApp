@@ -1,15 +1,13 @@
-package it.academy.interfaces;
+package it.academy.classes.shop.ShopItems.shopWorkers.filters;
 
 import it.academy.classes.shop.ShopItems.goods.Good;
 import it.academy.classes.shop.ShopItems.goods.comparators.GoodSimpleComparator;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-public interface Filter {
+public abstract class Filter {
     Set<Good> list = new TreeSet<>(new GoodSimpleComparator());
 
-    Set<Good> work();
+    public abstract Set<Good> work();
 }

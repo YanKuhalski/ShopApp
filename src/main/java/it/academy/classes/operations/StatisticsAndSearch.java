@@ -4,7 +4,7 @@ import it.academy.classes.Menu;
 import it.academy.classes.shop.ShopItems.shopWorkers.FounderOfTheSame;
 import it.academy.classes.shop.ShopItems.shopWorkers.ManufacturersStatisticsCounter;
 import it.academy.classes.shop.ShopItems.shopWorkers.Printer;
-import it.academy.classes.shop.ShopItems.shopWorkers.TimeFilter;
+import it.academy.classes.shop.ShopItems.shopWorkers.filters.TimeFilter;
 import it.academy.exeptions.IllegalChoiceExeption;
 import it.academy.exeptions.LackOfGoodsExeption;
 import it.academy.interfaces.Operation;
